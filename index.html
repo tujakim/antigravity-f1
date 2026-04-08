@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 2026 Schedule | Antigravity</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Orbitron for racing style, Inter for readability -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo" data-en="ANTIGRAVITY <span>F1</span>" data-ko="안티그래비티 <span>F1</span>">ANTIGRAVITY <span>F1</span></div>
+                <div class="season-badge" data-en="2026 SEASON" data-ko="2026 시즌">2026 SEASON</div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section with Countdown -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-image-container">
+                    <img src="f1_car.png" alt="F1 Racing Car" class="hero-car">
+                </div>
+                <div class="hero-content">
+                    <h2 class="subtitle" data-en="NEXT RACE" data-ko="다음 경기">NEXT RACE</h2>
+                    <h1 class="race-title" data-en="JAPANESE GRAND PRIX 2026" data-ko="2026 일본 그랑프리">JAPANESE GRAND PRIX 2026</h1>
+                    <div class="countdown-container" id="countdown">
+                        <div class="time-block">
+                            <span class="number" id="days">00</span>
+                            <span class="label" data-en="DAYS" data-ko="일">DAYS</span>
+                        </div>
+                        <div class="time-block">
+                            <span class="number" id="hours">00</span>
+                            <span class="label" data-en="HOURS" data-ko="시간">HOURS</span>
+                        </div>
+                        <div class="time-block">
+                            <span class="number" id="minutes">00</span>
+                            <span class="label" data-en="MINS" data-ko="분">MINS</span>
+                        </div>
+                        <div class="time-block">
+                            <span class="number" id="seconds">00</span>
+                            <span class="label" data-en="SECS" data-ko="초">SECS</span>
+                        </div>
+                    </div>
+                    <div class="race-info">
+                        <p data-en="📍 Suzuka International Racing Course" data-ko="📍 스즈카 인터내셔널 레이싱 코스">📍 Suzuka International Racing Course</p>
+                        <p data-en="📅 April 19, 2026" data-ko="📅 2026년 4월 19일">📅 April 19, 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section class="schedule">
+            <div class="container">
+                <h2 class="section-title" data-en="FULL SEASON SCHEDULE" data-ko="전체 시즌 일정">FULL SEASON SCHEDULE</h2>
+                <div class="schedule-grid" id="schedule-grid">
+                    <!-- Cards will be injected by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 ANTIGRAVITY. All rights reserved. | Built by Manager Kodari</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
